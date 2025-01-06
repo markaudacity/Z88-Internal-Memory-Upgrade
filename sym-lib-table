@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Z88 RAM ROM Internal")(type "KiCad")(uri "${KIPRJMOD}/RAM ROM Internal.kicad_sym")(options "")(descr ""))
+)
