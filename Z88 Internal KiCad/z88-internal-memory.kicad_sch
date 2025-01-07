@@ -3419,6 +3419,18 @@
 		(uuid "55e6c4af-881b-4686-9eb5-b48559abffd9")
 	)
 	(junction
+		(at 73.66 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5703a89e-0a94-45fe-adf4-d9564b343d58")
+	)
+	(junction
+		(at 71.12 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "971bfee9-4453-41bf-b0a7-7cb0d182f0c0")
+	)
+	(junction
 		(at 124.46 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4290,7 +4302,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 55.88) (xy 74.93 55.88)
+			(xy 62.23 55.88) (xy 73.66 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4327,6 +4339,16 @@
 			(type default)
 		)
 		(uuid "10166928-bc63-488c-8c63-f4b21e1dc807")
+	)
+	(wire
+		(pts
+			(xy 73.66 55.88) (xy 74.93 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10436920-b6a9-4d05-aa52-c291226ebe04")
 	)
 	(wire
 		(pts
@@ -5120,6 +5142,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 53.34) (xy 73.66 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7af1947f-138f-4602-a31b-55b2640217ff")
+	)
+	(wire
+		(pts
 			(xy 72.39 78.74) (xy 72.39 124.46)
 		)
 		(stroke
@@ -5310,7 +5342,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 58.42) (xy 74.93 58.42)
+			(xy 62.23 58.42) (xy 71.12 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5668,6 +5700,16 @@
 		)
 		(uuid "cda16d97-7a6f-4e95-853b-d60046cc2173")
 	)
+	(wire
+		(pts
+			(xy 71.12 58.42) (xy 74.93 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde14997-683b-4007-8033-a74681f40887")
+	)
 	(bus
 		(pts
 			(xy 77.47 81.28) (xy 77.47 83.82)
@@ -5707,6 +5749,16 @@
 			(type default)
 		)
 		(uuid "d217dc21-1de7-4f3a-87d1-c23ca412f253")
+	)
+	(wire
+		(pts
+			(xy 71.12 53.34) (xy 71.12 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d23c28bb-6ff6-4a31-9237-f2e6e7f09cbe")
 	)
 	(bus
 		(pts
@@ -7071,7 +7123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(property "Footprint" "Z88 internal memory:TestPoint"
 			(at 125.73 118.11 0)
 			(effects
 				(font
@@ -7127,7 +7179,7 @@
 				)
 			)
 		)
-		(property "Value" "RAM 2"
+		(property "Value" "A16"
 			(at 136.398 81.28 90)
 			(effects
 				(font
@@ -7136,7 +7188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(property "Footprint" "Z88 internal memory:TestPoint"
 			(at 139.7 78.74 0)
 			(effects
 				(font
@@ -7236,6 +7288,73 @@
 			(project ""
 				(path "/823d07c1-a4bc-4412-a610-b2ea7bb3dc09"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 73.66 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25dc5b94-0981-44ef-a80a-681ecf12d6e7")
+		(property "Reference" "TP4"
+			(at 72.898 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 76.2 51.3079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Z88 internal memory:TestPoint"
+			(at 78.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bc16425-d707-44e9-8b85-5846573547b6")
+		)
+		(instances
+			(project ""
+				(path "/823d07c1-a4bc-4412-a610-b2ea7bb3dc09"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -7734,6 +7853,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 71.12 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5fdd935-9e6e-4198-a484-cd1b19c0f080")
+		(property "Reference" "TP5"
+			(at 68.072 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 73.66 51.3079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Z88 internal memory:TestPoint"
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 71.12 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5d8c611-1a97-4248-92eb-8919891d64d1")
+		)
+		(instances
+			(project ""
+				(path "/823d07c1-a4bc-4412-a610-b2ea7bb3dc09"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Z88 RAM ROM Internal:ROM Pins DIP32")
 		(at 57.15 72.39 0)
 		(unit 1)
@@ -7908,7 +8094,7 @@
 				)
 			)
 		)
-		(property "Value" "RAM 3"
+		(property "Value" "A14"
 			(at 136.398 86.36 90)
 			(effects
 				(font
@@ -7917,7 +8103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(property "Footprint" "Z88 internal memory:TestPoint"
 			(at 139.7 83.82 0)
 			(effects
 				(font

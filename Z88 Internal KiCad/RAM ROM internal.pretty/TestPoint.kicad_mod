@@ -69,6 +69,17 @@
 	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_circle
 		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b476bb88-5557-4e1e-bd60-21cd3e583b3d")
+	)
+	(fp_circle
+		(center 0 0)
 		(end 1.25 0)
 		(stroke
 			(width 0.05)
