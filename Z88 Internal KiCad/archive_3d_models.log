@@ -1,0 +1,29 @@
+01-09 18:36:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 220:Plugin executed on: 'win32'
+01-09 18:36:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 221:Plugin executed with python version: '3.11.5 (main, Nov  3 2024, 06:58:22) [MSC v.1939 64 bit (AMD64)]'
+01-09 18:36:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 222:KiCad build version: 8.0.7
+01-09 18:36:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 223:Plugin version: 1.0.12
+
+01-09 18:36:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 228:Screen sizes: [wx.Size(1080, 1920), wx.Size(3440, 1440)]
+01-09 18:36:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 235:Dialog size: wx.Size(213, 81)
+01-09 18:36:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 237:Char size: 20
+01-09 18:36:14 com_github_MitjaNemec_Archive3DModels.archive_3d_models 26:Starting to archive 3D models
+01-09 18:36:14 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP5
+01-09 18:36:14 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP4
+01-09 18:36:14 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP3
+01-09 18:36:14 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP2
+01-09 18:36:14 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP1
+01-09 18:36:14 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: U1
+01-09 18:36:14 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/TSOP-I-48_18.4x12mm_P0.5mm.wrl
+01-09 18:36:14 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/TSOP-I-48_18.4x12mm_P0.5mm.wrl
+01-09 18:36:14 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J1
+01-09 18:36:14 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Horizontal.wrl
+01-09 18:36:14 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Horizontal.wrl
+01-09 18:36:14 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: U2
+01-09 18:36:14 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/TSOP-II-32_21.0x10.2mm_P1.27mm.wrl
+01-09 18:36:14 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/TSOP-II-32_21.0x10.2mm_P1.27mm.wrl
+01-09 18:36:14 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: P3
+01-09 18:36:14 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD_DOCUMENTS_HOME}/3dmodels/Mill-Max 335-xx-116.STEP
+01-09 18:36:14 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD_DOCUMENTS_HOME}/3dmodels/Mill-Max 335-xx-116.STEP
+01-09 18:36:14 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: P1
+01-09 18:36:14 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD_DOCUMENTS_HOME}/3dmodels/Mill-Max 335-xx-116.STEP
+01-09 18:36:14 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD_DOCUMENTS_HOME}/3dmodels/Mill-Max 335-xx-116.STEP
