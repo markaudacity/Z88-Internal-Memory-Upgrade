@@ -1,2 +1,2 @@
-# Z88 Internal Memory Upgrade
- Single-board drop-in internal 512kB Flash/RAM upgrade Cambridge Z88 
+# KiCad Project
+this is the KiCad project file tree, with custom symbol and footprint libraries included
