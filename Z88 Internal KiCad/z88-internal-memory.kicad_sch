@@ -8879,7 +8879,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed975a9c-2974-459e-a2fd-6d39ae5d1e2a")
 		(property "Reference" "U2"
-			(at 173.6441 66.04 0)
+			(at 173.5933 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8888,7 +8888,7 @@
 			)
 		)
 		(property "Value" "IS61C5128"
-			(at 173.6441 68.58 0)
+			(at 173.5933 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
